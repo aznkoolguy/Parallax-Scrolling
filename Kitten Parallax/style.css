@@ -1,0 +1,23 @@
+@import "compass/css3";
+
+body{
+  padding:0;
+  margin:0;
+}
+.parallax-image  {
+  padding-top: 50%;
+  position:relative;
+  img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: auto;
+  }
+}
+.bottom{
+  height: 500px;
+  background:#fff;
+  position:relative;
+  z-index: 1;
+}
